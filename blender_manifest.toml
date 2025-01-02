@@ -1,0 +1,26 @@
+schema_version = "1.0.0"
+
+# Example of manifest file for a Blender extension
+# Change the values according to your extension
+id = "auto_submission_proof"
+version = "1.0.0"
+name = "Auto Submission Proof"
+tagline = "Automatically generates submission proof"
+maintainer = "#jackthehack @discord"
+# Supported types: "add-on", "theme"
+type = "add-on"
+
+# # Optional: tag list defined by Blender and server, see:
+# # https://docs.blender.org/manual/en/dev/advanced/extensions/tags.html
+# tags = ["Object"]
+
+blender_version_min = "4.2.0"
+# # Optional: Blender version that the extension does not support, earlier versions are supported.
+# # This can be omitted and defined later on the extensions platform if an issue is found.
+# blender_version_max = "5.1.0"
+
+# License conforming to https://spdx.org/licenses/ (use "SPDX: prefix)
+# https://docs.blender.org/manual/en/dev/advanced/extensions/licenses.html
+license = [
+  "SPDX:GPL-3.0-or-later",
+]
